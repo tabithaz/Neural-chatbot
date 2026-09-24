@@ -17,8 +17,8 @@ A sequence-to-sequence (Seq2Seq) chatbot with attention, trained on the Cornell 
 
 ## Requirements
 
-* Python 3.x
-* TensorFlow 1.x
+* Python 3.7 (TensorFlow 1.15 is not compatible with current Python releases)
+* TensorFlow 1.15
 * NumPy
 
 Install dependencies:
@@ -33,10 +33,9 @@ Preprocess data, train, and chat:
 
 ```bash
 # Train the chatbot
-python main.py --mode train
+python chatbot.py --mode train
 
 # Chat with the bot
-python main.py --mode chat
+python chatbot.py --mode chat
 ```
-
 
